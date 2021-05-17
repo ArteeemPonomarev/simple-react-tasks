@@ -1,7 +1,30 @@
 .default {
+    font-size: 20px;
+    color: #fff;
+    background-color: #8926ff;
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.default:hover {
+    cursor: pointer;
+    background-color: rgba(103,33,255,0.7);
+}
+.default:active {
+    background-color: #5120a9;
 
 }
 
 .red {
-    background: red;
+    background-color: #ff005f;
+}
+.red:hover {
+    cursor: pointer;
+    background-color: rgba(255,0,95,0.81);
+}
+.default:active {
+    background-color: rgba(158,0,71,1);
 }

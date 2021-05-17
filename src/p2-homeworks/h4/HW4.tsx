@@ -25,13 +25,15 @@ function HW4() {
             homeworks 4
 
             <div className={s.column}>
+
+
                 <SuperInputText
                     value={text}
                     onChangeText={setText}
                     onEnter={showAlert}
                     error={error}
-                    spanClassName={s.testSpanError}
-                />
+                    spanClassName={s.testSpanError}/>
+
 
                 <SuperInputText
                     className={s.blue} // проверьте, рабоет ли смешивание классов
@@ -50,7 +52,7 @@ function HW4() {
                     delete {/*// название кнопки попадёт в children*/}
                 </SuperButton>
 
-                <SuperButton disabled>
+                <SuperButton disabled onClick={showAlert}>
                     disabled
                 </SuperButton>
 

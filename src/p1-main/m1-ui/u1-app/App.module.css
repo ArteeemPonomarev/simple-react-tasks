@@ -1,3 +1,4 @@
 .App {
-
+    min-height: 100vh;
+    background: linear-gradient(350deg, rgba(255,244,0,1) 0%, rgba(29,253,228,1) 46%, rgba(69,128,252,1) 100%);
 }

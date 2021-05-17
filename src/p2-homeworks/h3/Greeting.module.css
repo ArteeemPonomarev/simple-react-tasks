@@ -1,7 +1,50 @@
-.someClass {
-
+.greeting {
+    display: flex;
+    align-items: flex-start;
+}
+.error {
+    color: red;
+    height: 25px;
+    margin-left: 10px;
+}
+.input {
+    margin: 10px;
+    background-color: #fff96c;
+    color: black;
+    border: 3px solid #ff9e00;
 }
 
-.error {
-    border: 1px solid red;
+.input:focus{
+    outline: none;
+    border: 3px solid #957b18;
+}
+.errorInput {
+    border: 3px solid red;
+    margin: 10px;
+    background-color: #fff96c;
+    color: black;
+    outline: none;
+}
+
+.button {
+    margin: 10px;
+    padding: 3px 0;
+    width: 60px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.button:focus{
+    outline: #957b18 solid 2px;
+}
+.button:active{
+
+}
+.button:disabled{
+
+}
+.count{
+    margin: 10px;
 }
